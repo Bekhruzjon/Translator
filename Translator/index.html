@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+</head>
+<body>
+<header>
+  <div>
+<nav class="navbar">
+  <h1>Online Tarjimon</h1>
+</nav>
+</div>
+
+<div>
+  <input type="checkbox" class="checkbox" id="checkbox">
+  <label for="checkbox" class="checkbox-label">
+    <i class="fas fa-moon"></i>
+    <i class="fas fa-sun"></i>
+    <span class="ball"></span>
+  </label>
+</div>
+
+</header>
+    <main>
+      <div class="container">
+        <div class="wrapper">
+          <div class="text-input">
+            <textarea spellcheck="false" class="from-text" placeholder="Enter text"></textarea>
+            <textarea spellcheck="false" readonly disabled class="to-text" placeholder="Translation"></textarea>
+          </div>
+          <ul class="controls">
+            <li class="row from">
+              <div class="icons">
+                <i id="from" class="fas fa-volume-up"></i>
+                <i id="from" class="fas fa-copy"></i>
+              </div>
+              <select></select>
+            </li>
+            <li class="exchange"><i class="fas fa-exchange-alt"></i></li>
+            <li class="row to">
+              <select></select>
+              <div class="icons">
+                <i id="to" class="fas fa-volume-up"></i>
+                <i id="to" class="fas fa-copy"></i>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <button class="btn">Tarjima qilish</button>
+      </div>
+      <footer class="footer">
+        <p class="footer__title">Biz bilan bog'lanish:</p>
+        <div class="footer__social">
+            <a href="https://www.facebook.com/behruz.bozorov.16" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+            <a href="https://www.instagram.com/behruzcan_701/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+            <a href="https://t.me/behruzcan_701" class="footer__icon"><i class='bx bxl-telegram' ></i></a>
+        </div>
+        <p class="footer__copy">&#169; Web Developer Behruzjon</p>
+            <p>Tashkent 2024</p>
+    </footer>
+    </main>
+
+
+      <script src="js/tillar.js"></script>
+      <script src="js/script.js"></script>
+</body>
+</html>
